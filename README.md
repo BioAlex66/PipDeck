@@ -26,3 +26,5 @@ while True:
         time.sleep(0.15)
         keyboard.release(Keycode.F24)  
 ```
+
+Remember to replace both mentions of the key so that both the pressed and released keys are the same. 
