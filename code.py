@@ -158,7 +158,7 @@ while True:
     if key12.value is True:
         keyboard.press(Keycode.WINDOWS, Keycode.L)
         time.sleep(0.15)
-        keyboard.release(Keycode.ENTER)
+        keyboard.release(Keycode.WINDOWS, Keycode.L)
     if key13.value is True:
         keyboard.press(Keycode.F21)
         pixel_butt[0] = (255,255,255)
